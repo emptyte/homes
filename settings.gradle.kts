@@ -2,7 +2,7 @@ pluginManagement {
   includeBuild("build-logic")
 }
 
-rootProject.name = "template"
+rootProject.name = "homes"
 
 sequenceOf("api", "plugin").forEach {
   include("${rootProject.name}-$it")

@@ -1,9 +1,9 @@
 package team.emptyte.template;
 
-import team.unnamed.inject.AbstractModule;
+import team.emptyte.inject.ProtectedModule;
 
 @SuppressWarnings("unused")
-public final class MainModule extends AbstractModule {
+public final class MainModule extends ProtectedModule {
   @Override
   public void configure() {
   }

@@ -1,4 +1,4 @@
-rootProject.name = "template-build-logic"
+rootProject.name = "homes-build-logic"
 
 dependencyResolutionManagement {
   versionCatalogs {

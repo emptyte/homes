@@ -13,13 +13,12 @@ dependencies {
 
 bukkit {
   val projectName = rootProject.name.split("-").joinToString("") { it.capitalized() }
-  val pluginName = "Fenix$projectName"
+  val pluginName = "Emptyte$projectName"
   name = pluginName
   apiVersion = "1.20"
   main = "team.emptyte.${projectName.lowercase(Locale.ROOT)}.${pluginName}Plugin"
-  description = "Fenix $projectName plugin."
-  authors = listOf("YOUR USERNAME HERE")
-  //depend = listOf("EmptyteCore")
+  description = "Emptyte $projectName plugin."
+  authors = listOf("SrVenient")
 }
 
 tasks {
